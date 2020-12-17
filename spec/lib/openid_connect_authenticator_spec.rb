@@ -13,6 +13,7 @@ describe OpenIDConnectAuthenticator do
       info: {
         name: "John Doe",
         email: user.email,
+        groups: ["staff", "losers"]
       },
       extra: {
         raw_info: {
