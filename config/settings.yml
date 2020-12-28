@@ -41,3 +41,6 @@ discourse_openid_connect:
     default: true
   openid_connect_strict_groups:
     default: true
+  openid_connect_group_membership_claims:
+    default: ""
+    type: list
